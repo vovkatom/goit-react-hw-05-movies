@@ -3,9 +3,9 @@ import { MagnifyingGlass } from 'react-loader-spinner';
 export const Loader = () => (
   <MagnifyingGlass
     visible={true}
-    height="80"
-    width="80"
-    ariaLabel="MagnifyingGlass-loading"
+    height='80'
+    width='80'
+    ariaLabel='MagnifyingGlass-loading'
     wrapperStyle={{
       display: 'flex',
       justifyContent: 'center',
@@ -19,8 +19,8 @@ export const Loader = () => (
       bottom: '0',
       zIndex: '9999',
     }}
-    wrapperClass="MagnifyingGlass-wrapper"
-    glassColor="#c0efff"
-    color="#949293"
+    wrapperClass='MagnifyingGlass-wrapper'
+    glassColor='#c0efff'
+    color='#949293'
   />
 );

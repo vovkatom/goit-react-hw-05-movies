@@ -12,11 +12,11 @@ export const SearchForm = ({ value, onChange }) => {
     <Form onSubmit={handleSubmit}>
       <h2>Movie Search</h2>
       <DebounceInput
-        type="text"
+        type='text'
         debounceTimeout={500}
         value={value}
         onChange={e => onChange(e.target.value)}
-        placeholder="type here"
+        placeholder='type here'
       />
       <Icon />
     </Form>

@@ -8,7 +8,6 @@ const Reviews = () => {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    // Отримання оглядів фільму з API
     const movieReviews = async () => {
       try {
         const response = await fetchMovieReviews(movieId);

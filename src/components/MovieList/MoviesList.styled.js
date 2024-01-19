@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import propTypes from 'prop-types';
-import { FaVideo } from 'react-icons/fa';
-import { FcFilmReel } from "react-icons/fc";
+import { FcFilmReel } from 'react-icons/fc';
 
 import placeholder from '../images/placeholder.png';
 

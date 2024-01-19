@@ -9,23 +9,22 @@ const Home = () => {
   const [trendingMovies, setTrendingMovies] = useState([]);
 
   useEffect(() => {
-    // Отримання списку популярних фільмів з API
     const fetchData = async () => {
       try {
-        const movies = await fetchTrendingMovies(); 
-        setTrendingMovies(movies); 
+        const movies = await fetchTrendingMovies();
+        setTrendingMovies(movies);
       } catch (error) {
         console.error(error);
       }
     };
 
-    fetchData(); // Call the fetchData function to fetch the trending movies
+    fetchData();
   }, []);
 
   return (
     <div>
       <h2>Trending Movies</h2>
-      <SkeletonTheme baseColor="#dddddd" highlightColor="#a5a5a5">
+      <SkeletonTheme baseColor='#dddddd' highlightColor='#a5a5a5'>
         {trendingMovies.length === 0 ? (
           <Skeleton
             count={15}

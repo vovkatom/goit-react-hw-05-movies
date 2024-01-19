@@ -1,7 +1,5 @@
 import styled from 'styled-components';
-import { FcSearch } from 'react-icons/fc';
-import { TbDatabaseSearch } from "react-icons/tb";
-import { MdContentPasteSearch } from "react-icons/md";
+import { MdContentPasteSearch } from 'react-icons/md';
 
 export const Form = styled.form`
   display: flex;

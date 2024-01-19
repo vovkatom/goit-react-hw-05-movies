@@ -35,7 +35,7 @@ const Movies = () => {
 
   return (
     <div>
-      <SkeletonTheme baseColor="#dddddd" highlightColor="#a5a5a5">
+      <SkeletonTheme baseColor='#dddddd' highlightColor='#a5a5a5'>
         <SearchForm value={movieName} onChange={updateQueryString} />
         {loading ? (
           <Skeleton
