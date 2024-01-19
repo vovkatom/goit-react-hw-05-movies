@@ -7,13 +7,12 @@ export const List = styled.ul`
 
   @media screen and (max-width: 768px) {
     grid-template-columns: repeat(1, 1fr);
-    margin: auto;
-    
+    margin: 40px;
   }
 `;
 
 export const Item = styled.li`
-  margin-top: 20px;
+  //margin-top: 20px;
   img {
     border-radius: 5px;
   }
