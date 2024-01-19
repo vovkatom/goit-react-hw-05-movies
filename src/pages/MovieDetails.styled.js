@@ -4,11 +4,14 @@ import propTypes from 'prop-types';
 import background from '../components/images/background.jpeg';
 
 export const Container = styled.div`
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin-bottom: 20px;
+
+@media screen and (min-width: 768px) {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
 
   &::before {
     content: '';
