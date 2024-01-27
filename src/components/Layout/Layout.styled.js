@@ -48,10 +48,6 @@ export const Links = styled(NavLink)`
   }
 `;
 
-export const Footer = styled.footer`
-  border-top: 1px solid black;
-`;
-
 export const Text = styled.p`
   text-align: center;
   padding: 20px 0;

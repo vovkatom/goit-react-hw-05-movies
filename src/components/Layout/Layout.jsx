@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 
 import { Loader } from '../Loader/Loader';
-import { Container, Header, Links, Footer, Text } from './Layout.styled';
+import { Container, Header, Links } from './Layout.styled';
 
 const Layout = () => {
   return (
@@ -19,9 +19,7 @@ const Layout = () => {
         <Suspense fallback={<Loader />}>
           <Outlet />
         </Suspense>
-        <Footer>
-          <Text>&copy; {new Date().getFullYear()} Movie Search</Text>
-        </Footer>
+        
       </Container>
     </>
   );

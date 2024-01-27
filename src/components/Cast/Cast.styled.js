@@ -12,7 +12,6 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
-  //margin-top: 20px;
   img {
     border-radius: 5px;
   }
